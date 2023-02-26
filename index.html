@@ -1,1 +1,30 @@
-Hello World
+
+<!DOCTYPE html>
+<html ng-app>
+ 
+<head>
+    <script src=
+"//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js">
+    </script>
+    <title>Angular Static Template</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+         
+        h1 {
+            color: green;
+        }
+    </style>
+</head>
+ 
+<body ng-controller="GeekController">
+    <h1>GeeksforGeeks</h1>
+    <h3>Angular Static Template</h3>
+    <br> Input Value is:
+    <input ng-model="geek" value="Your Value Here">
+    <button ng-click="gfg()">Button</button>
+    <script src="angular.js"></script>
+</body>
+</html>
