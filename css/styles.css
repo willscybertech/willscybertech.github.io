@@ -3031,8 +3031,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #46b0f6;
-  border-color: #46b0f6;
+  background-color: #d9aa00;
+  border-color: #cca000;
 }
 .btn-primary:hover {
   color: #fff;
@@ -3503,6 +3503,11 @@ textarea.form-control-lg {
 }
 .fade:not(.show) {
   opacity: 0;
+}
+
+.company-logo {
+  font-family: 'Cursive';
+  color:#0baccc;
 }
 
 .collapse:not(.show) {
